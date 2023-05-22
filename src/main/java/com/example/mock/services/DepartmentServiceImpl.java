@@ -40,6 +40,7 @@ public class DepartmentServiceImpl implements DepartmentService {
                 ;
     }
 
+
     @Override
     public int maxSalaryByDepartment(int department) {
         if(this.allEmployeesByDepartment(department).size() == 0){
