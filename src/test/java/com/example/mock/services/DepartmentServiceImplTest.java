@@ -102,6 +102,7 @@ class DepartmentServiceImplTest {
         verify(employeeService, times(1)).findAllEmployees();
     }
     @Test
+
     public void testDepartmentNotFoundException(){
         Employee employee1 = new Employee("Ivan", "Ivanov", 100_000, 1);
         Employee employee3 = new Employee("Oleg", "Olegov", 150_000, 1);

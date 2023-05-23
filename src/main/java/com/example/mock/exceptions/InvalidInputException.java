@@ -8,6 +8,7 @@ public class InvalidInputException extends RuntimeException{
         super(message);
     }
 
+
     public InvalidInputException(String message, Throwable cause) {
         super(message, cause);
     }
